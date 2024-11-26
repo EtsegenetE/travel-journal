@@ -1,0 +1,103 @@
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+header {
+  width: 100%;
+  height: 55px;
+  background-color: coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+}
+
+header > img {
+  width: 30px;
+  margin-right: 7px;
+  height: 40px;
+}
+
+.journal-entry{
+  display: flex;
+  margin: 50px;
+}
+
+article{
+  display: flex;
+}
+.marker {
+  width: 15px;
+  height: 15px;
+}
+.info-container {
+  padding-left: 20px;
+}
+
+
+.main-image {
+  overflow: hidden;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+
+.info-container a {
+  color: #2B283A;
+  font-size: 1rem;
+  margin-left: 3px;
+  
+}
+
+.info-container p.entry-dates{
+  font-weight: bold;
+}
+
+.info-container span.country{
+  text-transform: uppercase;
+}
+
+.info-container a:visited{
+  color: purple;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
